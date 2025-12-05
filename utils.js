@@ -1,9 +1,11 @@
 function greet(name) {
-  return "Hello, " + name
+  return 'Hello, ' + name;
 }
 
 function farewell(name) {
-  return "Goodbye, " + name
+  return 'Goodbye, ' + name;
 }
 
-module.exports = { greet, farewell }
+const message = 'This is a message';
+
+module.exports = { greet, farewell, message };
